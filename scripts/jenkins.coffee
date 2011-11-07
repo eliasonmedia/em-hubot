@@ -27,6 +27,7 @@ module.exports = (robot) ->
       .post() (err, res, body) ->
         if err
           msg.send "Jenkins says: #{err}"
+	  msg.send "#{url}/job/#{job}/build"
         else if res.statusCode == 302
               msg.send "Build started for #{branch}! #{res.headers.location}"
             else
