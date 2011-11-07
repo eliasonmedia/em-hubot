@@ -1,4 +1,4 @@
-sing around with the Coderwall API.
+# Messing around with the Coderwall API.
 #
 # coderwall <coderwall username> - Returns coder achievements from coderwall.com
 #                      

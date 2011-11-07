@@ -1,4 +1,4 @@
- hubot to do what you want, even if he doesn't know how
+# Forces hubot to do what you want, even if he doesn't know how
 #
 # hubot sudo <anything you want> - Force hubot to do what you want
 module.exports = (robot) ->
