@@ -30,5 +30,5 @@ module.exports = (robot) ->
         else if res.statusCode == 302
               msg.send "Build started for #{branch}! #{res.headers.location}"
             else
-              msg.send "Jenkins says: #{body}"
+              msg.send "#{url}/job/#{job}/build - Jenkins says: #{body}"
 
